@@ -1,0 +1,25 @@
+{
+  "name": "hello-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbuget/hello-fastify.git"
+  },
+  "author": "J. Buget <contact@jbuget.fr>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jbuget/hello-fastify/issues"
+  },
+  "homepage": "https://github.com/jbuget/hello-fastify#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "fastify": "^4.5.3"
+  },
+  "type": "module"
+}
