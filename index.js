@@ -14,6 +14,10 @@ fastify.get('/', () => {
   return 'Hello world!'
 });
 
+fastify.get('/redirect', (request, reply) => {
+  reply.redirect('/')
+});
+
 const start = async () => {
   try {
     await fastify.listen({ port, host });
